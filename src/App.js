@@ -8,6 +8,7 @@ import Projects from './pages/Projects';
 import Recommendation from './pages/Recommendation';
 
 import AppProvider from './context/AppProvider';
+import Expirience from './pages/Expirience';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/projects" element={ <Projects /> } />
         <Route path="/contact" element={ <Contact /> } />
         <Route path="/recommendation" element={ <Recommendation /> } />
+        <Route path="/expirience" element={ <Expirience /> } />
       </Routes>
     </AppProvider>
   );

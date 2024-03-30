@@ -20,24 +20,24 @@ function Home() {
           <MenuMobile />
           <main className="main-wrapper home">
             <div className="home-content">
-              <p><span className="span">{'<'}</span>Olá 👋 eu sou o</p>
-              <h1>Thiago Nóbrega <span className="span">{'/>'}</span> </h1>
+              <p><span className="span">{'<'}</span>Hi, I am</p>
+              <h1>Saurav Thakur <span className="span">{'/>'}</span> </h1>
               <Typical 
-                steps={['Front-End Developer', 1000, 'Web Development Student', 1000]}
+                steps={['Python and JS Developer', 1000, 'Machine Learning Enthusiast', 1000]}
                 loop={Infinity}
                 wrapper="h2"
               />
               <a 
-                href="https://gitconnected.com/thiagodanobrega/resume" 
+                href="https://docs.google.com/document/d/1kiVJcKw1pGGFatbgC3pzNtKuOBbrUZDWxQHGYFf-isc/edit?usp=sharing" 
                 target="_blank"
                 className="btn-download" rel="noreferrer"
               >
-                Download CV
-                <FiDownload />
+                View CV
+                {/* <FiDownload /> */}
               </a>
             </div>
             <img 
-              src={image} alt="Foto de perfil do Thiago, um jovem homem branco de cabelo castanho" 
+              src={image} alt="Saurav Thakur an OK human" 
               className="image-perfil"
             />
           </main>

@@ -29,8 +29,8 @@ function Header() {
         />
         <MenuBar 
           icon={ json_icon }
-          name='recomendacoes.json'
-          path="/recommendation"
+          name='expirience'
+          path="/expirience"
         /> 
         <MenuBar 
           icon={ css_icon }

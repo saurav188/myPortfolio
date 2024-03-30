@@ -27,13 +27,13 @@ function About() {
               <br/>
               <span className="span-tag content">{'<p>'}</span>
                 <p className="text-about">
-                  Meu nome é <span className="span-highlight">Thiago Nóbrega</span> e adoro solucionar problemas através dos códigos. Sou formado em Engenharia Civil, mas estou em transição de carreira, atualmente estudando Desenvolvimento <span className="span-highlight">Web Full Stack.</span>
+                  My name is <span className="span-highlight">Saurav Thakur</span>. <span className="span-highlight">Full Stack Wed Developer.</span>
                 </p>
-                <p className="text-about">
-                  Meu foco é poder ajudar a melhorar a vida das pessoas, desenvolvendo aplicações que sejam <span className="span-highlight">acessíveis e funcionais</span>. A experiência inclui a solução de problemas e testes, trabalhando em equipes com prazos rigorosos, para projetos desenvolvidos no curso da Trybe.
-                </p>
+                {/* <p className="text-about">
+                   <span className="span-highlight"></span>
+                </p> */}
                 <p className="text-about last">
-                  AS habilidades relevantes incluem: <span className="span-highlight">Html, CSS, JavaScript, React, Redux, ContextAPI, Hooks, Jest/RTL, Git/Github.</span>
+                  Ms Skills are: <span className="span-highlight">Html, CSS, JavaScript, Python, Django, Odoo, React, Git/Github.</span>
                 </p>
               <span className="span-tag content">{'</p>'}</span>
               <br/>

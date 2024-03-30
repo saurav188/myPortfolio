@@ -8,15 +8,15 @@ function Footer() {
   return ( 
     <footer className="footer-container">
       <div className="links-footer">
-        <p>Encontre-me em:</p>
-        <a href="https://www.linkedin.com/in/thiagodanobrega/" 
+        <p>Find me in:</p>
+        <a href="https://www.linkedin.com/in/saurav-thakur-b366761b5/" 
           target="_blank" 
           className="icon-container" 
           rel="noreferrer"
         >
           <BsLinkedin className="icon-footer"/>
         </a>
-        <a href="https://github.com/thiagodanobrega" 
+        <a href="https://github.com/saurav188" 
           target="_blank" 
           className="icon-container" 
           rel="noreferrer"
@@ -25,7 +25,7 @@ function Footer() {
         </a>
       </div>
       
-      <p className="text-footer">Desenvolvido com ❤ por Thiago Nóbrega</p>
+      {/* <p className="text-footer">Desenvolvido com ❤ por Thiago Nóbrega</p> */}
       {/* <select className="select-language">
         <option>🇧🇷 pt-BR</option>
         <option>🇺🇸 en-US</option>
