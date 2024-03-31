@@ -1,4 +1,4 @@
-const expirience = [
+const experience = [
     {
         start: new Date("2023-05-16"), 
         end: new Date("2023-08-16"), 
@@ -8,11 +8,11 @@ const expirience = [
     },
     {
         start: new Date("2023-08-16"), 
-        end: new Date("2024-03-31"), 
+        end: new Date("2024-04-01"), 
         position: 'Python Developer', 
         company:'Shangrilla Infomatics',
         description:''
     },
   ];
   
-  export default expirience;
+  export default experience;

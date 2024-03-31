@@ -34,19 +34,19 @@ function SideBar() {
           </Link>
           <Link to="/about" className="explorer-file">
             <img src={ html_icon } alt="icon" className="icon-side-bar"/>
-            <p>sobre.html</p>
+            <p>about.html</p>
           </Link>
           <Link to="/projects" className="explorer-file">
             <img src={ js_icon } alt="icon" className="icon-side-bar"/>
-            <p>projetos.js</p>
+            <p>project.js</p>
           </Link>
           <Link to="/expirience" className="explorer-file">
             <img src={ json_icon } alt="icon" className="icon-side-bar"/>
-            <p>expirience</p>
+            <p>experience.json</p>
           </Link>
           <Link to="/contact" className="explorer-file">
             <img src={ css_icon } alt="icon" className="icon-side-bar"/>
-            <p>contato.css</p>
+            <p>contact.css</p>
           </Link>
         </>
       )}

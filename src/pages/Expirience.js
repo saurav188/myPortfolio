@@ -4,7 +4,7 @@ import TitleBar from "../components/TitleBar";
 import Footer from "../components/Footer";
 import SideBar from "../components/SideBar";
 import MenuMobile from "../components/MenuMobile";
-import expirience from "../data/expirience"
+import experience from "../data/experience"
 import "../styles/Expirience.css"
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
@@ -20,9 +20,9 @@ function Expirience() {
         <Header />
         <MenuMobile />
         <main className="main-wrapper recommendation">
-          <h1 className="title-recommendation">My Work Expirience</h1>
+          <h1 className="title-recommendation">My Work Experience</h1>
           <VerticalTimeline>
-            {expirience.map( data => <VerticalElement data={data} />)}
+            {experience.map( data => <VerticalElement data={data} />)}
         </VerticalTimeline>
 
         </main>
@@ -43,10 +43,12 @@ const VerticalElement = ({ data }) => {
       icon={<MdWorkHistory />}
       // icon={<WorkIcon />}
   >
-      <h3 className="vertical-timeline-element-title">{data.position}</h3>
-      <h4 className="vertical-timeline-element-subtitle">{data.company}</h4>
-      <p>{data.description}</p>
-      <i>{`${data.start.getFullYear()}-${(data.start.getMonth()+1)} to ${data.end ? data.end.getFullYear() + '-' + (data.end.getMonth()+1) : "present"}`}</i>
+    <span style={{color:"darkpink"}}>{"{"}</span><br />
+      &emsp;<span style={{color:"rgb(33, 150, 243)"}}>position:</span> <span style={{color:"brown"}}>"{data.position}"</span><br />
+      &emsp;<span style={{color:"rgb(33, 150, 243)"}}>company:</span> <span style={{color:"brown"}}>"{data.company}"</span><br />
+      &emsp;<span style={{color:"rgb(33, 150, 243)"}}>description</span> <span style={{color:"brown"}}>"{data.description}"</span><br />
+      &emsp;<span style={{color:"rgb(33, 150, 243)"}}>date:</span> <span style={{color:"brown"}}>"{`${data.start.getFullYear()}-${(data.start.getMonth()+1)} to ${data.end ? data.end.getFullYear() + '-' + (data.end.getMonth()+1) : "present"}`}"</span><br />
+    <span style={{color:"darkpink"}}>{"}"}</span>
   </VerticalTimelineElement>
 }
 

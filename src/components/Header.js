@@ -19,22 +19,22 @@ function Header() {
         /> 
         <MenuBar 
           icon={ html_icon }
-          name='sobre.html'
+          name='about.html'
           path="/about"
         />
         <MenuBar 
           icon={ js_icon }
-          name='projetos.js'
+          name='projects.js'
           path="/projects"
         />
         <MenuBar 
           icon={ json_icon }
-          name='expirience'
+          name='experience.json'
           path="/expirience"
         /> 
         <MenuBar 
           icon={ css_icon }
-          name='contato.css'
+          name='contact.css'
           path="/contact"
         /> 
       </nav>

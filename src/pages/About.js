@@ -22,16 +22,18 @@ function About() {
               <span className="span-tag body">{'<body>'}</span>
               <br/>
               <span className="span-tag content">{'<h1>'}</span>
-                <h1 className="title-about">Olá,</h1>
+                <h1 className="title-about">Hi,</h1>
               <span className="span-tag content">{'</h1>'}</span>
               <br/>
               <span className="span-tag content">{'<p>'}</span>
                 <p className="text-about">
-                  My name is <span className="span-highlight">Saurav Thakur</span>. <span className="span-highlight">Full Stack Wed Developer.</span>
+                  My name is <span className="span-highlight">Saurav Thakur</span>. <span className="span-highlight"></span>
                 </p>
-                {/* <p className="text-about">
-                   <span className="span-highlight"></span>
-                </p> */}
+                <p className="text-about">
+                  <span className="span-highlight">Python and  Javascript developer </span>
+                  who has hands-on experience working in a software company as a Python System Engineer as well as a hands on experience working with 3 different international clients to build their system.
+
+                </p>
                 <p className="text-about last">
                   Ms Skills are: <span className="span-highlight">Html, CSS, JavaScript, Python, Django, Odoo, React, Git/Github.</span>
                 </p>
