@@ -24,7 +24,7 @@ function Projects() {
         <MenuMobile />
         <main className="main-wrapper projects">
           <h1 className="title-page-projects">My Projects...</h1>
-          <div className="btn-container">
+          <div className="btn-container" style={{display:"none"}}>
             <button 
               type="button" 
               className={`btn-filter ${typeFilter === 'all' && 'active'}`} 
